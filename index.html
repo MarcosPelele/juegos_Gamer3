@@ -1,0 +1,1220 @@
+﻿<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="CSS/Gamers_Estilos.css" rel="stylesheet" type="text/css" />
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head> 
+<body> 
+
+<div data-role="page" id="paginainicio">
+	<div data-role="header" id="titulo">
+		<h1>GAMERS</h1>
+        <div id="Imagen"><img src="Juegos_Imagenes/GAMERS_PORTADA.jpg" width="447" height="250" ></div>
+	</div>
+    <div id="texto">Un videojuego o juego de video es un juego electronico en el que una o mas personas interactuan, por medio de un controlador, con un dispositivo dotado de imagenes de video.1 Este dispositivo electronico, conocido genericamente como «plataforma», puede ser una computadora, una maquina arcade, una videoconsola o un dispositivo portatil (un telefono movil, por ejemplo). Los videojuegos son, hoy por hoy, una de las principales industrias del arte y el entretenimiento.
+    </div>
+
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#Accion y Aventura">Accion y Aventura</a></li>
+            <li><a href="#Disparos">Disparos</a></li>
+			<li><a href="#EstraySimu">Estrategia y Simulacion</a></li>
+            <li><a href="#Luchas">Luchas </a></li>
+            <li><a href="#Plata">Juego de Plataformas </a></li>
+		</ul>		
+	</div>
+    
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+<div data-role="page" id="Accion y Aventura">
+	<div data-role="header" id="titulo">
+		<h1>Accion y Aventura</a></h1>
+	</div>
+	<div data-role="content" id="titulo">	
+		<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#GTA">• Gran theft Auto 5 </a></li>
+            <li><a href="#Justcause2">• Just cause 2</a></li>
+            <li><a href="#Assassin">• Assassin´s creed´iv Black Flag</a></li>
+            <li><a href="#ArmyoftwoThedevil">• Army of two The devil´s Cartel </a></li>	
+            <li><a href="#DRBZ">•Dragon ball Z battle of Z </a></li>
+            <li><a href="#RER">•Resident Evil Revelations </a></li>	<br />
+            
+            <a href="#paginainicio" data-role="button">Regresar</a>
+            </ul>
+            </div>
+            <div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+            </div>	
+	</div>	
+	</div>
+    
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+<div data-role="page" id="GTA">
+	<div data-role="header" id="titulo">
+		<h1>Gran theft Auto 5</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+   <div id="Imagen"> <img src="Juegos_Imagenes/grand theft auto.jpg" width="464" height="250" /></div>
+		<div id="texto">Los SANTOS: una extensa y soleada metropolis llena de gurus de autoayuda, aspirantes a estrellas y famosos en decadencia; alguna vez fue envidia del mundo occidental, ahora lucha por mantenerse a flote en una era de incertidumbre economica y “reality shows” baratos. En medio de esta confusion, tres criminales muy distintos calculan sus probabilidades de supervivencia y de exito:
+Franklin, un maleante callejero en busca de verdaderas oportunidades para conseguir mucho dinero; Michael, un ex convicto cuyo retiro es menos idilico de lo que habia esperado; y Trevor, un maniatico violento motivado por la posibilidad de encontrar drogas baratas y el proximo atraco importante. </div> 
+		</br>
+	<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="282" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/grand theft auto2.jpg" alt="" width="133" height="92" id="GTA1" onmouseover="MM_swapImage('Contenedor','','Juegos_Imagenes/grand theft auto2.jpg',0)" /></td>
+        <td width="133"><img src="Juegos_Imagenes/grand theft auto1.jpg" alt="" width="133" height="92" id="GTA2" onmouseover="MM_swapImage('Contenedor','','Juegos_Imagenes/grand theft auto1.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/grand theft auto3.jpg" alt="" width="133" height="92" id="GTA3" onmouseover="MM_swapImage('Contenedor','','Juegos_Imagenes/grand theft auto3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/grand theft auto4.jpg" alt="" width="133" height="92" id="GT4" onmouseover="MM_swapImage('Contenedor','','Juegos_Imagenes/grand theft auto4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/grand theft auto1.jpg" alt="" width="312" height="188" id="Contenedor" /></td>
+  </tr>
+</table>
+	<a href="#Accion y Aventura" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+   </div>
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+<div data-role="page" id="Justcause2">
+	<div data-role="header" id="titulo">
+		<h1>Just cause 2</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+    <div id="Imagen"> <img src="Juegos_Imagenes/Just cause 2.jpg" height="166"  /> </div>
+		<div id="texto">	En la isla de Panau , tres bandas rivales hacen la guerra en el
+calles mientras el dictador despiadado bebe Panay ejerce un sistema
+ de la opresion y la corrupcion en contra de su propio pueblo.
+En algun lugar de la isla ,su amigo y mentor Tom Sheldon 
+ha desaparecido con Intel y millones de alto secreto en la Agencia de dinero en efectivo.
+Como Rico Rodriguez , el arma mas peligrosa de la Agencia, que
+debe infiltrado la isla y localizar Sheldon , lo que desencadeno una violenta
+cadena de acontecimientos que marcaran llamas Panau .
+</div>
+
+<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="282" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/Just cause1.jpg" alt="" width="133" height="92" id="just1" onmouseover="MM_swapImage('contenedor','','Juegos_Imagenes/Just cause1.jpg',0)" /></td>
+        <td width="133"><img src="Juegos_Imagenes/Just cause_2.jpg" alt="" width="133" height="92" id="just2" onmouseover="MM_swapImage('contenedor','','Juegos_Imagenes/Just cause_2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/Just cause3.jpg" alt="" width="133" height="92" id="just3" onmouseover="MM_swapImage('contenedor','','Juegos_Imagenes/Just cause3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/Just cause4.jpg" alt="" width="133" height="92" id="just4" onmouseover="MM_swapImage('contenedor','','Juegos_Imagenes/Just cause4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/Just cause1.jpg" alt="" width="312" height="188" id="contenedor" /></td>
+  </tr>
+</table>
+<a href="#Accion y Aventura" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+  </div>
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+<div data-role="page" id="Assassin">
+	<div data-role="header" id="titulo">
+		<h1>Assassin´s creed´iv Black Flag</h1>
+	</div>
+	<div data-role="content" id="paginainicio">
+    <div id="Imagen"><img src="Juegos_Imagenes/Assassins creed iv Black Flag.jpg"g" /></div>	
+		<div id="texto">Ano 1715.Los piratas dominaban todo el Caribe y habian establecido  su propio gobierno en la que la corrupcion, la codicia y la crueldad eran las unicas leyes. Entre estos hombres destacaba un joven y altivo capitan llamado Edward Kenway. Su lucha por conseguir la gloria le granjeo el respeto de leyendas como Barbanegra, pero tambien le sumergio de lleno en la historica lucha entre Assassins y templar  ios, una lucha que amenazaba con destruir todo lo que los piratas habian creado.</div>
+		  <table width="780" height="235" border="1">
+		    <tr>
+		      <td width="385" height="229" align="center" valign="middle"><table width="282" height="200" border="1">
+		        <tr>
+		          <td width="133" height="96"><img src="Juegos_Imagenes/Assassin´s creed´iv Black Flag1.jpg" alt="" width="133" height="92" id="Assin1" onmouseover="MM_swapImage('ContenedorAssin','','Juegos_Imagenes/Assassin´s creed´iv Black Flag1.jpg',0)" /></td>
+		          <td width="133"><img src="Juegos_Imagenes/Assassin´s creed´iv Black Flag2.jpg" alt="" width="133" height="92" id="Assin2" onmouseover="MM_swapImage('ContenedorAssin','','Juegos_Imagenes/Assassin´s creed´iv Black Flag2.jpg',0)" /></td>
+	            </tr>
+		        <tr>
+		          <td height="96"><img src="Juegos_Imagenes/Assassin´s creed´iv Black Flag3.jpg" alt="" width="133" height="92" id="Assin3" onmouseover="MM_swapImage('ContenedorAssin','','Juegos_Imagenes/Assassin´s creed´iv Black Flag3.jpg',0)" /></td>
+		          <td><img src="Juegos_Imagenes/Assassin´s creed´iv Black Flag4.jpg" alt="" width="133" height="92" id="Assin4" onmouseover="MM_swapImage('ContenedorAssin','','Juegos_Imagenes/Assassin´s creed´iv Black Flag4.jpg',0)" /></td>
+	            </tr>
+		        </table></td>
+		      <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/Assassins creed iv Black Flag.jpg" alt="" width="312" height="188" id="ContenedorAssin" /></td>
+	        </tr>
+	      </table>
+ </div>
+	  <a href="#Accion y Aventura" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+<div data-role="page" id="ArmyoftwoThedevil">
+	<div data-role="header" id="titulo">
+		<h1>Army of two The devil´s Cartel</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+    <div id="Imagen"> <img src="Juegos_Imagenes/Army of TWO™ The Devil’s Cartel.jpg" /></div>
+    <div id="texto">
+La version de Games on Demand admite los siguientes idiomas: ingles, frances y espanol. Para descargar el manual de este juego, visita https://help.ea.com/es/tag/manuals y selecciona tu titulo en el menu desplegable Producto. ¡El pionero de la cooperacion tactica ha vuelto! Visceral Games, los galardonados autores de Dead Space™, vuelven a la carga con Army of TWO™ The Devil’s Cartel, un shooter en tercera persona tan original como espectacular que utiliza el motor Frostbite 2 para llevar la maxima destruccion a tu pantalla. Con la ayuda de tu companero, deberas aniquilar todo cuanto se cruce en tu camino hasta acabar con el temible cartel de narcotraficantes que se ha apoderado de Mexico. Cada jugador debera cumplir sus propios objetivos para alcanzar la meta comun y superar la mision, asi que tendreis que trabajar en equipo... ¡Cuanto mejor colaboreis, mayor sera vuestra recompensa! Incluye el nuevo modo Aniquilacion, que te permite sembrar la destruccion a una escala epica. ¡Disfruta de una explosiva campana cooperativa para dos jugadores en pantalla partida u online!
+</div>
+
+		<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="290" height="200" border="1">
+      <tr>
+        <td width="135" height="96"><img src="Juegos_Imagenes/Army of two The devil´s Cartel1.jpg" alt="" width="133" height="92" id="Cartel1" onmouseover="MM_swapImage('ContenedorCartel','','Juegos_Imagenes/Army of two The devil´s Cartel1.jpg',0)" /></td>
+        <td width="139"><img src="Juegos_Imagenes/Army of two The devil´s Cartel2.jpg" alt="" width="133" height="92" id="Cartel2" onmouseover="MM_swapImage('ContenedorCartel','','Juegos_Imagenes/Army of two The devil´s Cartel2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/Army of two The devil´s Cartel3.jpg" alt="" width="133" height="92" id="Cartel3" onmouseover="MM_swapImage('ContenedorCartel','','Juegos_Imagenes/Army of two The devil´s Cartel3.jpg',0)" /></td>
+           <td height="96"><img src="Juegos_Imagenes/Army of two The devil´s Cartel4.jpg" alt="" width="143" height="96" id="Cartel4" onmouseover="MM_swapImage('ContenedorCartel','','Juegos_Imagenes/Army of two The devil´s Cartel4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/Army of TWO™ The Devil’s Cartel.jpg" alt="" width="312" height="188" id="ContenedorCartel" /></td>
+  </tr>
+</table>
+<a href="#Accion y Aventura" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+<div data-role="page" id="DRBZ">
+	<div data-role="header" id="titulo">
+		<h1>Dragon ball Z battle of  Z</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+    <div id="Imagen"> <img src="Juegos_Imagenes/DRAGON BALL Z BATTLE OF Z.jpg" /></div>
+    <div id="texto">
+   La version de Games on Demand admite los siguientes idiomas: ingles, frances, espanol, portugues. DRAGON BALL Z BATTLE OF Z lleva la pelea a un nuevo nivel con un estilo de juego de lucha exclusivo y original, centrado en las batallas en equipo. Podras pelear online contra tus amigos o junto a ellos en freneticos modos de juego de hasta 8 jugadores simultaneos.
+   </div>
+   
+   
+   		<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/Dragon ball Z battle of Z1.jpg" alt="" width="133" height="92" id="DRB1" onmouseover="MM_swapImage('ContenedorDRB','','Juegos_Imagenes/Dragon ball Z battle of Z1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/Dragon ball Z battle of Z2.jpg" alt="" width="133" height="92" id="DRB2" onmouseover="MM_swapImage('ContenedorDRB','','Juegos_Imagenes/Dragon ball Z battle of Z2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/Dragon ball Z battle of Z3.jpg" alt="" width="133" height="92" id="DRB3" onmouseover="MM_swapImage('ContenedorDRB','','Juegos_Imagenes/Dragon ball Z battle of Z3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/Dragon ball Z battle of 4.jpg" alt="" width="133" height="92" id="DRB4" onmouseover="MM_swapImage('ContenedorDRB','','Juegos_Imagenes/Dragon ball Z battle of 4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/DRAGON BALL Z BATTLE OF Z.jpg" alt="" width="312" height="188" id="ContenedorDRB" /></td>
+  </tr>
+</table>
+<a href="#Accion y Aventura" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+<div data-role="page" id="RER">
+	<div data-role="header" id="titulo">
+		<h1>Resident Evil Revelations</h1>
+	</div>
+	<div data-role="content" id="paginainicio">
+    <div id="Imagen"> <img src="Juegos_Imagenes/Resident Evil Revelations.jpg" /> </div>	
+    <div id="texto">
+La historia tiene lugar antes de los ataques bioterroristas en Kijuju y en Lanshiang, cuando la BSAA aun era una organizacion en desarrollo. Aborda con Jill Valentine un barco fantasma en el mar Mediterraneo en busca de su antiguo companero, Chris Redfield. Descubre la verdad oculta tras la destruccion de una ciudad flotante. O juega al modo asalto y disfruta de una oleada de muertes en modo cooperativo en red con los amigos.</div>
+		<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/Resident Evil Revelations1.jpg" alt="" width="133" height="92" id="RER1" onmouseover="MM_swapImage('ContenedorRER','','Juegos_Imagenes/Resident Evil Revelations1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/Resident Evil Revelations2.jpg" alt="" width="133" height="92" id="RER2" onmouseover="MM_swapImage('ContenedorRER','','Juegos_Imagenes/Resident Evil Revelations2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/Resident Evil Revelations3.jpg" alt="" width="133" height="92" id="RER3" onmouseover="MM_swapImage('ContenedorRER','','Juegos_Imagenes/Resident Evil Revelations3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/Resident Evil Revelations4.jpg" alt="" width="133" height="92" id="RER4" onmouseover="MM_swapImage('ContenedorRER','','Juegos_Imagenes/Resident Evil Revelations4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/Resident Evil Revelations.jpg" alt="" width="312" height="188" id="ContenedorRER" /></td>
+  </tr>
+</table>
+<a href="#Accion y Aventura" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+
+
+
+
+<!----AQUI TERMINA EL BOTON DE ACCION Y AVENTURA---->
+<div data-role="page" id="Disparos">
+	<div data-role="header" id="titulo">
+		<h1>Disparos</h1>
+	</div>
+	<div data-role="content" id="titulo">	
+        <div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#COD">• COD: Advanced Warfare </a></li>
+            <li><a href="#Halo4">• Halo 4</a></li>
+            <li><a href="#Battlefield3">• Battlefield 3</a></li>
+            <li><a href="#Sniper">• Sniper Ghost Warrior 2 </a></li>	
+            <li><a href="#Left">• Left 4 Dead 2 </a></li>
+            <li><a href="#Crysis">•Crysis® 3 </a></li>	
+            <br />
+            <a href="#paginainicio" data-role="button">Regresar</a>
+            </ul>
+            </div>
+            <div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+            </div>	
+	</div>	 
+	</div>
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+<div data-role="page" id="COD">
+	<div data-role="header" id="titulo">
+		<h1>COD: Advanced Warfare</h1>
+	</div>
+	<div data-role="content" id="paginainicio">
+    <div id="Imagen"> <img src="Juegos_Imagenes/COD_Advanced Warfare.jpg" /> </div>	
+    <div id="texto">
+Advanced Warfare imagina los campos de batalla del futuro, donde la tecnologia y la estrategia han evolucionado hasta dar paso a una nueva era de combate. El actor ganador de un oscar Kevin Spacey interpreta a Jonathan Irons, uno de los hombres mas poderosos del mundo, para dar forma a esta vision del futuro de la guerra. Power Changes Everything. Tambien incluye el paquete de personalizacion de la Edicion digital, con un camuflaje de arma personalizado, un conjunto de reticulas y una tarjeta de jugador.</div>
+	<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="280" height="200" border="1">
+      <tr>
+        <td width="135" height="96"><img src="Juegos_Imagenes/COD_advanced warfare1.jpg" alt="" width="133" height="92" id="COD1" onmouseover="MM_swapImage('ContenedorCOD','','Juegos_Imagenes/COD_advanced warfare1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/COD_advanced warfare2.jpg" alt="" width="133" height="92" id="COD2" onmouseover="MM_swapImage('ContenedorCOD','','Juegos_Imagenes/COD_advanced warfare2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/COD_advanced warfare3.jpg" alt="" width="133" height="92" id="COD3" onmouseover="MM_swapImage('ContenedorCOD','','Juegos_Imagenes/COD_advanced warfare3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/COD_advanced warfare4.jpg" alt="" width="133" height="92" id="COD4" onmouseover="MM_swapImage('ContenedorCOD','','Juegos_Imagenes/COD_advanced warfare4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/COD_Advanced Warfare.jpg" alt="" width="312" height="188" id="ContenedorCOD" /></td>
+  </tr>
+</table>
+<a href="#Disparos" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+<div data-role="page" id="Halo4">
+	<div data-role="header" id="titulo">
+		<h1>Halo 4</h1>
+	</div>
+	<div data-role="content" id="paginainicio">
+    <div id="Imagen"> <img src="Juegos_Imagenes/Halo 4.jpg" /></div>
+    <div id="texto">
+Master Chief vuelve para enfrentarse a un antiguo enemigo que amenaza a todo el universo. Perdido en un planeta misterioso, amenazado por letales enemigos… el universo nunca volvera a ser el mismo. Enlistate en la nave UNSC Infinity para disfrutar del revolucionario modo multijugador y completar las misiones semanales del nuevo modo Spartan Ops, de manera individual o cooperativa.
+Caracteristicas principales
+1. Empieza la Saga del Reclamador: experimenta el comienzo de una nueva aventura epica de Halo, en solitario o en pantalla dividida con hasta tres amigos.
+2. Ve mas alla de la historia: la funcion multijugador Infinity de Halo 4 presenta una enorme gama de modos multijugador, armas, vehiculos, funciones de armadura, una nueva armadura personalizada y el sistema Spartan IV de progresion del jugador.
+3. Entretenimiento emocionante: sumergete en los graficos, el sonido y la epica mecanica de juego de Halo 4, incluida una misteriosa y mortal clase nueva de enemigos.</div>
+	<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/Halo1.jpg" alt="" width="133" height="92" id="Halo1" onmouseover="MM_swapImage('ContenedorHalo','','Juegos_Imagenes/Halo1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/Halo2.jpg" alt="" width="133" height="92" id="Halo2" onmouseover="MM_swapImage('ContenedorHalo','','Juegos_Imagenes/Halo2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/Halo3.jpg" alt="" width="133" height="92" id="Halo3" onmouseover="MM_swapImage('ContenedorHalo','','Juegos_Imagenes/Halo3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/Halo_4.jpg" alt="" width="133" height="92" id="Halo4" onmouseover="MM_swapImage('ContenedorHalo','','Juegos_Imagenes/Halo_4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/Halo 4.jpg" alt="" width="312" height="188" id="ContenedorHalo" /></td>
+  </tr>
+</table>
+<a href="#Disparos" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+<div data-role="page" id="Battlefield3">
+	<div data-role="header" id="titulo">
+		<h1>Battlefield 3</h1>
+	</div>
+	<div data-role="content" id="paginainicio">
+    <div id="Imagen"> <img src="Juegos_Imagenes/Battlefield 3.jpg" />	</div>
+    <div id="texto">
+Battlefield 3 adelanta a la competencia gracias a la potencia del vanguardista motor de juego Frostbite™ 2, la ultima apuesta de DICE. Esta moderna tecnologia es la base del diseno de Battlefield 3 y ofrece una calidad de imagen superior, un magnifico sentido de las dimensiones, destruccion masiva, sonido dinamico y una animacion de personajes increiblemente realista. Con balas que pasan silbando, muros que se desmoronan y explosiones que te tiran al suelo, el campo de batalla cobra nueva vida y se vuelve mas interactivo que nunca. En Battlefield 3, el jugador se alista en la elite de los Marines estadounidenses, donde vivira trepidantes misiones individuales y una competitiva accion multijugador a lo largo de distintos lugares de todo el mundo, como Paris, Teheran y Nueva York.</div>
+	<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/Battlefiel1.jpg" alt="" width="133" height="92" id="Btt1" onmouseover="MM_swapImage('ContenedorBtt','','Juegos_Imagenes/Battlefiel1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/Battlefiel2.jpg" alt="" width="133" height="92" id="Btt2" onmouseover="MM_swapImage('ContenedorBtt','','Juegos_Imagenes/Battlefiel2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/Battlefiel_3.jpg" alt="" width="133" height="92" id="Btt3" onmouseover="MM_swapImage('ContenedorBtt','','Juegos_Imagenes/Battlefiel_3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/Battlefiel4.jpg" alt="" width="133" height="92" id="Btt4" onmouseover="MM_swapImage('ContenedorBtt','','Juegos_Imagenes/Battlefiel4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/Battlefield 3.jpg" alt="" width="312" height="188" id="ContenedorBtt" /></td>
+  </tr>
+</table>
+<a href="#Disparos" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+<div data-role="page" id="Sniper">
+	<div data-role="header" id="titulo">
+		<h1>Sniper Ghost Warrior 2</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+    <div id="Imagen"> <img src="Juegos_Imagenes/Sniper Ghost Warrior 2.jpg" /> </div>
+    <div id="texto">
+Ponte en la piel del francotirador mas letal de la elite de los Ghost Warrior.  Adentrate en territorio enemigo, dispara con precision y pon tus dotes a prueba en esta historia llena de intriga y traicion. Siente la muerte en tu gatillo y disfruta de una experiencia de lo mas realista. Juega una campana individual o combate en una batalla multijugador Incluye el avanzado motor de juego CryENGINE®.</div>
+	<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/Sniper Ghost Warrior1.jpg" alt="" width="133" height="92" id="Sniper1" onmouseover="MM_swapImage('ContenedorSniper','','Juegos_Imagenes/Sniper Ghost Warrior1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/Sniper Ghost Warrior_2.jpg" alt="" width="133" height="92" id="Sniper2" onmouseover="MM_swapImage('ContenedorSniper','','Juegos_Imagenes/Sniper Ghost Warrior_2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/Sniper Ghost Warrior3.jpg" alt="" width="133" height="92" id="Sniper3" onmouseover="MM_swapImage('ContenedorSniper','','Juegos_Imagenes/Sniper Ghost Warrior3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/Sniper Ghost Warrior4.jpg" alt="" width="133" height="92" id="Sniper4" onmouseover="MM_swapImage('ContenedorSniper','','Juegos_Imagenes/Sniper Ghost Warrior4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/Sniper Ghost Warrior 2.jpg" alt="" width="312" height="188" id="ContenedorSniper" /></td>
+  </tr>
+</table>
+<a href="#Disparos" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+<div data-role="page" id="Left">
+	<div data-role="header" id="titulo">
+		<h1> Left 4 Dead 2</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+    <div id="Imagen"> <img src="Juegos_Imagenes/Left 4 Dead 2.jpg" /></div>
+    <div id="texto">
+La version de Juegos a peticion es compatible con ingles, frances, italiano, aleman, espanol, portugues, japones, chino. De la mano de Valve®, creadores de Counter-Strike®, Half-Life®, Portal™ y Team Fortress®, llega Left 4 Dead™ 2, una nueva aventura que te metera en la piel de uno de los cuatro "supervivientes" que libran una pugna de proporciones epicas contra hordas de zombis y sus terrorificas variedades mutantes especiales. ¿Podras sobrevivir al Apocalipsis zombi</div>
+		<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/left 4 dead1.jpg" alt="" width="133" height="92" id="Dead1" onmouseover="MM_swapImage('ContenedorDead','','Juegos_Imagenes/left 4 dead1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/left 4 dead_2.jpg" alt="" width="133" height="92" id="Dead2" onmouseover="MM_swapImage('ContenedorDead','','Juegos_Imagenes/left 4 dead_2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/left 4 dead3.jpg" alt="" width="133" height="92" id="Dead3" onmouseover="MM_swapImage('ContenedorDead','','Juegos_Imagenes/left 4 dead3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/left 4 dead4.jpg" alt="" width="133" height="92" id="Dead4" onmouseover="MM_swapImage('ContenedorDead','','Juegos_Imagenes/left 4 dead4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/Left 4 Dead 2.jpg" alt="" width="312" height="188" id="ContenedorDead" /></td>
+  </tr>
+</table>
+<a href="#Disparos" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+<div data-role="page" id="Crysis">
+	<div data-role="header" id="titulo">
+		<h1>Crysis® 3</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+    <div id="Imagen"> <img src="Juegos_Imagenes/Crysis 3.jpg" /></div>
+    <div id="texto">
+ ¡El galardonado desarrollador Crytek vuelve con Crysis 3, el primer shooter superventas de 2013! Regresa al combate con Prophet, el soldado del nanotraje, en una mision que te llevara a descubrir su humanidad y cobrarte una despiadada venganza. Adaptate sobre la marcha con las capacidades de camuflaje y blindaje de tu increible nanotraje y entra en combate en las Siete Maravillas de la Cupula de la Libertad de Nueva York. Libera toda la potencia belica de tu nuevo arco de alta tecnologia y de tu arsenal alienigena para dar caza a enemigos humanos y extraterrestres. Descubre la verdad que se oculta tras la muerte de tu escuadron y devuelve el poder a la raza humana en esta profunda historia llena de giros y cambios inesperados. Crysis 3 es el shooter definitivo que se materializa gracias a los impresionantes graficos que solo Crytek y la ultima version del CryENGINE pueden ofrecer. Analiza, Adaptate y Ataca... a partir de la primavera de 2013.
+</div>
+		<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/Crysis1.jpg" alt="" width="133" height="92" id="Cry1" onmouseover="MM_swapImage('ContenedorCry','','Juegos_Imagenes/Crysis1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/Crysis2.jpg" alt="" width="133" height="92" id="Cry2" onmouseover="MM_swapImage('ContenedorCry','','Juegos_Imagenes/Crysis2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/Crysis_3.jpg" alt="" width="133" height="92" id="Cry3" onmouseover="MM_swapImage('ContenedorCry','','Juegos_Imagenes/Crysis_3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/Crysis4.jpg" alt="" width="133" height="92" id="Cry4" onmouseover="MM_swapImage('ContenedorCry','','Juegos_Imagenes/Crysis4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/Crysis 3.jpg" alt="" width="312" height="188" id="ContenedorCry" /></td>
+  </tr>
+</table>
+<a href="#Disparos" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="EstraySimu">
+	<div data-role="header" id="titulo">
+		<h1>Estrategia y Simulacion</h1>
+	</div>
+	<div data-role="content" id="titulo">	
+        <div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#Mine">• Minecraft: Xbox 360 Edition </a></li>
+            <li><a href="#Halo">• Halo Wars</a></li>
+            <li><a href="#Grid">• GRID 2</a></li>
+            <li><a href="#Fable">• Fable III </a></li>	
+            <li><a href="#Omerta">• Omerta - City of Gangsters </a></li>
+            <li><a href="#Battle">•Battlestations Midway </a></li>	
+           <br />
+            <a href="#paginainicio" data-role="button">Regresar</a>
+            </ul>
+            </div>
+            <div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+            </div>	
+	</div>	 
+	</div>
+<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+<div data-role="page" id="Fable">
+	<div data-role="header" id="titulo">
+		<h1>Fable III</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+   <div id="Imagen"> <img src="Juegos_Imagenes/Fable III.jpg" width="464" height="250" /></div>
+   <div id="texto">
+La version de Juegos a peticion es compatible con espanol. Fable III es la siguiente gran entrega de la franquicia Fable, que tantos elogios ha recibido. Lidera una revolucion para hacerte con el mando de Albion, lucha junto a tu gente, y vive el amor y la perdida mientras preparas la defensa del reino frente a una amenaza en ciernes. Tus decisiones como monarca tendran consecuencias que afectaran a todo el reino.
+</div>
+<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/fable1.jpg" alt="" width="133" height="92" id="Fable1" onmouseover="MM_swapImage('ContenedorFable','','Juegos_Imagenes/fable1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/fable2.jpg" alt="" width="133" height="92" id="Fable2" onmouseover="MM_swapImage('ContenedorFable','','Juegos_Imagenes/fable2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/fable3.jpg" alt="" width="133" height="92" id="Fable3" onmouseover="MM_swapImage('ContenedorFable','','Juegos_Imagenes/fable3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/fable4.jpg" alt="" width="133" height="92" id="Fable4" onmouseover="MM_swapImage('ContenedorFable','','Juegos_Imagenes/fable4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/Fable III.jpg" alt="" width="312" height="188" id="ContenedorFable" /></td>
+  </tr>
+</table>
+<a href="#EstraySimu" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+    </div>
+		<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+</div>
+    </div>
+
+<div data-role="page" id="Mine">
+	<div data-role="header" id="titulo">
+		<h1>Minecraft: Xbox 360 Edition</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+   <div id="Imagen"> <img src="Juegos_Imagenes/Minecraft_Xbox 360 Edition.jpg" /> </div> 
+   <div id="texto">
+¡Imaginalo, construyelo! Minecraft: Xbox 360 Edition te permite crear mundos desde la comodidad de tu sofa. Juega solo o con tus amigos. ¡Explora, construye y conquista! De noche salen los monstruos, asi que procura construir un refugio antes de que eso suceda. A partir de ahi, el limite del mundo es tu imaginacion. ¡Las horas te pareceran minutos en Minecraft! Se necesita una television de alta definicion para disfrutar de la funcionalidad de pantalla dividida.
+</div>
+	<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/minecraft xbox 3601.jpg" alt="" width="133" height="92" id="Mine1" onmouseover="MM_swapImage('ContenedorMine','','Juegos_Imagenes/minecraft xbox 3601.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/minecraft xbox 3602.jpg" alt="" width="133" height="92" id="Mine2" onmouseover="MM_swapImage('ContenedorMine','','Juegos_Imagenes/minecraft xbox 3602.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/minecraft xbox 3603.jpg" alt="" width="133" height="92" id="Mine3" onmouseover="MM_swapImage('ContenedorMine','','Juegos_Imagenes/minecraft xbox 3603.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/minecraft xbox 3604.jpg" alt="" width="133" height="92" id="Mine4" onmouseover="MM_swapImage('ContenedorMine','','Juegos_Imagenes/minecraft xbox 3604.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/Minecraft_Xbox 360 Edition.jpg" alt="" width="312" height="188" id="ContenedorMine" /></td>
+  </tr>
+</table>
+<a href="#EstraySimu" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="Halo">
+	<div data-role="header" id="titulo">
+		<h1>Halo Wars</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+   <div id="Imagen"> <img src="Juegos_Imagenes/Halo wars.jpg"  width="464" height="250" /></div>
+   <div id="texto">
+Halo Wars es un juego de estrategia basado en el universo legendario de Halo®. Controla ejercitos enteros de Spartans, Warthogs y mucho mas durante el combate, tras unirte a la tripulacion del Spirit of Fire para luchar contra los Covenant. Disenado desde el principio para Xbox 360, Halo Wars te permite controlar facilmente poderosos ejercitos durante batallas epicas. No hay reembolsos para este articulo. Para obtener mas informacion, visita www.xbox.com/live/accounts.
+</div>
+<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/halo wars1.jpg" alt="" width="133" height="92" id="Wars1" onmouseover="MM_swapImage('ContenedorWars','','Juegos_Imagenes/halo wars1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/halo wars2.jpg" alt="" width="133" height="92" id="Wars2" onmouseover="MM_swapImage('ContenedorWars','','Juegos_Imagenes/halo wars2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/halo wars3.jpg" alt="" width="133" height="92" id="Wars3" onmouseover="MM_swapImage('ContenedorWars','','Juegos_Imagenes/halo wars3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/halo wars4.jpg" alt="" width="133" height="92" id="Wars4" onmouseover="MM_swapImage('ContenedorWars','','Juegos_Imagenes/halo wars4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/Halo wars.jpg" alt="" width="312" height="188" id="ContenedorWars" /></td>
+  </tr>
+</table>
+<a href="#EstraySimu" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="Grid">
+	<div data-role="header" id="titulo">
+		<h1>GRID 2</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+   <div id="Imagen"> <img src="Juegos_Imagenes/Grid 2.jpg" width="464" height="250" /></div>
+	<div id="texto">	
+Descubre un asombroso mundo de competiciones automovilisticas que cobran vida, desde las carreras de muscle cars por las peculiares calles de San Francisco y la competicion en las legendarias 24 horas de Le Mans a hacer drifting por los muelles de Yokohama. Ponte detras del volante de emocionantes coches de carreras en las competiciones mas agresivas, espectaculares y renidas que hayas experimentado nunca, en las que tambien podras demostrar tu valia compitiendo en linea. Bienvenido a GRID. Las carreras vuelven a ser emocionantes. No hay reembolsos para este articulo. Para obtener mas informacion, visita www.xbox.com/live/accounts.
+</div>
+<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/grid1.jpg" alt="" width="133" height="92" id="Grid1" onmouseover="MM_swapImage('ContenedorGrid','','Juegos_Imagenes/grid1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/grid_2.jpg" alt="" width="133" height="92" id="Grid2" onmouseover="MM_swapImage('ContenedorGrid','','Juegos_Imagenes/grid_2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/grid3.jpg" alt="" width="133" height="92" id="Grid3" onmouseover="MM_swapImage('ContenedorGrid','','Juegos_Imagenes/grid3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/grid4.jpg" alt="" width="133" height="92" id="Grid4" onmouseover="MM_swapImage('ContenedorGrid','','Juegos_Imagenes/grid4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/Grid 2.jpg" alt="" width="312" height="188" id="ContenedorGrid" /></td>
+  </tr>
+</table>
+<a href="#EstraySimu" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+    </div>
+</div>
+
+
+
+
+<div data-role="page" id="Omerta">
+	<div data-role="header" id="titulo">
+		<h1>Omerta - City of Gangsters</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+   <div id="Imagen"> <img src="Juegos_Imagenes/Omerta - City of Gangsters.jpg" width="411" height="267" /></div>
+   <div id="texto">
+La version de Games on Demand admite los siguientes idiomas: ingles, frances, italiano, aleman, espanol, polaco. Para descargar el manual de este juego, busca el juego en http://marketplace.xbox.com y elige "Ver manual del juego". OMERTÀ - CITY OF GANGSTERS es un juego de simulacion con combates tacticos por turnos. El jugador se metera en la piel de un inmigrante con suenos de grandeza que acaba de pisar tierra firme, y debera abrirse paso en la jerarquia criminal de la Atlantic City de los anos 20. Su personaje empieza con pequenos trabajos, pero reune una banda y va expandiendo su imperio gracias al territorio tomado de otros gangsteres. Con el tiempo, forma su propio sindicato del crimen y se convierte en el autentico soberano de Atlantic City. Caracteristicas: - Fiel representacion historica de Atlantic City y sus lugares emblematicos. - Accion estrategica que permite una vision general de la ciudad, la planificacion, la expansion y la obtencion de informacion. - Combate tactico por turnos con un sistema de cobertura y de actuacion sigilosa. - 15 personajes diferentes controlados por el jugador, cada uno con su propia personalidad y sus antecedentes. - Un sistema de tipologia rol para desarrollar los personajes del jugador y gestionar su equipo. - Modo multijugador competitivo y cooperativo con bandas duraderas. - Mas de 15 horas de juego para completar una sola partida. - 20 mapas distintos que cubren varios distritos de Atlantic City. </div>
+<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/omerta city of gangsters1.jpg" alt="" width="133" height="92" id="Omerta1" onmouseover="MM_swapImage('ContenedorOmerta','','Juegos_Imagenes/omerta city of gangsters1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/omerta city of gangsters2.jpg" alt="" width="133" height="92" id="Omerta2" onmouseover="MM_swapImage('ContenedorOmerta','','Juegos_Imagenes/omerta city of gangsters2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/omerta city of gangsters3.jpg" alt="" width="133" height="92" id="Omerta3" onmouseover="MM_swapImage('ContenedorOmerta','','Juegos_Imagenes/omerta city of gangsters3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/omerta city of gangsters4.jpg" alt="" width="133" height="92" id="Omerta4" onmouseover="MM_swapImage('ContenedorOmerta','','Juegos_Imagenes/omerta city of gangsters4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/Omerta - City of Gangsters.jpg" alt="" width="312" height="188" id="ContenedorOmerta" /></td>
+  </tr>
+</table>
+<a href="#EstraySimu" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+        </div>
+</div>
+
+
+
+
+<div data-role="page" id="Battle">
+	<div data-role="header" id="titulo">
+		<h1>Battlestations Midway</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+   <div id="Imagen"> <img src="Juegos_Imagenes/Battlestations_ Midway.jpg"  width="464" height="250" /></div>
+   <div id="texto">
+Este juego soporta los idiomas Ingles, frances, aleman e italiano. El manual de este juego se puede descargar buscando el juego en http://marketplace.xbox.com y seleccionando "Ver el manual del juego". BattleStations: Midway es un increible juego de accion que te sumerge en grandiosos combates aereos, marinos y submarinos como Pearl Harbor o Midway. Lidera importantes ataques y asume el control directo en tiempo real de todos los aviones, buques y submarinos durante la lucha. No hay reembolsos para este articulo. Para obtener mas informacion, visita www.xbox.com/live/accounts.</div>
+<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/Battlestations1.jpg" alt="" width="133" height="92" id="Midway1" onmouseover="MM_swapImage('ContenedorMidway','','Juegos_Imagenes/Battlestations1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/Battlestations2.jpg" alt="" width="133" height="92" id="Midway2" onmouseover="MM_swapImage('ContenedorMidway','','Juegos_Imagenes/Battlestations2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/Battlestations3.jpg" alt="" width="133" height="92" id="Midway3" onmouseover="MM_swapImage('ContenedorMidway','','Juegos_Imagenes/Battlestations3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/Battlestations4.jpg" alt="" width="133" height="92" id="Midway4" onmouseover="MM_swapImage('ContenedorMidway','','Juegos_Imagenes/Battlestations4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/Battlestations_ Midway.jpg" alt="" width="312" height="188" id="ContenedorMidway" /></td>
+  </tr>
+</table>
+<a href="#EstraySimu" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+        </div>
+</div>
+
+<!-----AQUI TERMINA EL BOTON DE ESTRATEGIA Y SIMULACION--->
+
+
+<div data-role="page" id="Luchas">
+	<div data-role="header" id="titulo">
+		<h1>Lucha</h1>
+	</div>
+	<div data-role="content" id="titulo">	
+		<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#Mortal">• Mortal Kombat vs. DCU </a></li>
+            <li><a href="#Injustice">• Injustice </a></li>
+            <li><a href="#Kino">•THE KING OF FIGHTERS XIII </a></li>
+            <li><a href="#Storm">•STORM Generations </a></li>	
+            <li><a href="#All">•WWE® All Stars </a></li>
+            <li><a href="#wwe">•WWE 2K15 </a></li>	
+            <br />
+            <a href="#paginainicio" data-role="button">Regresar</a>
+            </ul>
+            </div>
+            <div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+            </div>	
+	</div>	
+	</div>
+	<div data-role="footer" id="titulo"> 
+    GAMERS
+    </div>
+</div>
+
+
+<div data-role="page" id="Mortal">
+	<div data-role="header" id="titulo">
+		<h1>Mortal Kombat vs. DCU</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+   <div id="Imagen"><img src="Juegos_Imagenes/Mortal Kombat vs. DCU.jpg" width="464" height="250" /></div>
+
+
+<div id="texto">Por la primera vez, los guerreros de Mortal Kombat se enfrentan a los superheroes de DC Universe en Mortal Kombat vs. DC Universe
+</div>
+<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/Mortal Kombat vs. DCU1.jpg" alt="" width="133" height="92" id="Mortal1" onmouseover="MM_swapImage('ContenedorMortal','','Juegos_Imagenes/Mortal Kombat vs. DCU1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/Mortal Kombat vs. DCU2.jpg" alt="" width="133" height="92" id="Mortal2" onmouseover="MM_swapImage('ContenedorMortal','','Juegos_Imagenes/Mortal Kombat vs. DCU2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/Mortal Kombat vs. DCU3.jpg" alt="" width="133" height="92" id="Mortal3" onmouseover="MM_swapImage('ContenedorMortal','','Juegos_Imagenes/Mortal Kombat vs. DCU3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/Mortal Kombat vs. DCU4.jpg" alt="" width="133" height="92" id="Mortal4" onmouseover="MM_swapImage('ContenedorMortal','','Juegos_Imagenes/Mortal Kombat vs. DCU4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/Mortal Kombat vs. DCU.jpg" alt="" width="312" height="188" id="ContenedorMortal" /></td>
+  </tr>
+</table>
+<a href="#Luchas" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+  </div>
+	<div data-role="footer">
+    </div>
+    <div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="Injustice">
+	<div data-role="header" id="titulo">
+		<h1>Injustice</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+   <div id="Imagen"> <img src="Juegos_Imagenes/Injustice.jpg" width="464" height="250" /></div>
+
+<div id="texto">La version de Games on Demand admite los siguientes idiomas: ingles, frances, italiano, aleman, espanol, polaco, portugues, ruso. ¿Que pasaria si nuestros mas grandes heroes se volvieran nuestra mayor amenaza? Injustice: Gods Among Us presenta una nueva y audaz franquicia al genero de juegos de pelea de NetherRealm Studios, creadores de Mortal Kombat. Con emblematicos personajes de DC Comics como Batman, The Joker, Green Lantern, The Flash, Superman y la Mujer Maravilla, el ultimo titulo del galardonado estudio presenta una profunda historia original. Heroes y villanos se enfrentaran en epicas batallas a escala masiva en un mundo donde la linea entre el  bien y el mal se confunde.
+</div>
+
+<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/Injustice1.jpg" alt="" width="133" height="92" id="Injus1" onmouseover="MM_swapImage('ContenedorInjus','','Juegos_Imagenes/Injustice1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/Injustice2.jpg" alt="" width="133" height="92" id="Injus2" onmouseover="MM_swapImage('ContenedorInjus','','Juegos_Imagenes/Injustice2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/Injustice3.jpg" alt="" width="133" height="92" id="Injus3" onmouseover="MM_swapImage('ContenedorInjus','','Juegos_Imagenes/Injustice3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/Injustice4.jpg" alt="" width="133" height="92" id="Injus4" onmouseover="MM_swapImage('ContenedorInjus','','Juegos_Imagenes/Injustice4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/Injustice.jpg" alt="" width="312" height="188" id="ContenedorInjus" /></td>
+  </tr>
+</table>
+<a href="#Luchas" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer">
+    </div>
+    <div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="Kino">
+	<div data-role="header" id="titulo">
+		<h1>THE KING OF FIGHTERS XIII</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+   <div id="Imagen"> <img src="Juegos_Imagenes/THE KING OF FIGHTERS XIII.jpg" width="464" height="250" /></div>
+<div id="texto">
+Consumir tus enemigos con las llamas de la ira hasta que se convierten en cenizas ! " The King of Fighters XIII " llega a Xbox 360 como el ultimo frente al juego de lucha , en una version mejorada del juego de arcade original! Descubra " Billy Kane " y " Saiki ( forma humana ) " caracteres adicionales en consola exclusiva que los fans de KOF seguramente no pueden permitirse el lujo de perder, " modo historia " de KOF XIII , que se muestra como una novela visual (revelando numerosos episodios desconocidos hasta ahora ), el alta calidad " en linea Versus Mode" para intensas batallas con otros jugadores a traves de Xbox LIVE, un " modo de tutorial " que incluso los jugadores novatos KOF pueden disfrutar , y muchos mas modos de juego para miles de horas de diversion! Sin embargo, no ha terminado todavia! Mas contenido adicional estara disponible para descargar en una fecha posterior como " Iori con el Poder de las llamas " y mas personajes descargables !? El capitulo final de la saga de " Ash " , lleno de ira y la traicion, termina aqui !!</div>
+
+<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/the king of fighters1.jpg" alt="" width="133" height="92" id="King1" onmouseover="MM_swapImage('ContenedorKing','','Juegos_Imagenes/the king of fighters1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/the king of fighters2.jpg" alt="" width="133" height="92" id="King2" onmouseover="MM_swapImage('ContenedorKing','','Juegos_Imagenes/the king of fighters2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/the king of fighters3.jpg" alt="" width="133" height="92" id="King3" onmouseover="MM_swapImage('ContenedorKing','','Juegos_Imagenes/the king of fighters3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/the king of fighters4.jpg" alt="" width="133" height="92" id="King4" onmouseover="MM_swapImage('ContenedorKing','','Juegos_Imagenes/the king of fighters4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/THE KING OF FIGHTERS XIII.jpg" alt="" width="312" height="188" id="ContenedorKing" /></td>
+  </tr>
+</table>
+<a href="#Luchas" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer">
+    </div>
+    <div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="Storm">
+	<div data-role="header" id="titulo">
+		<h1>STORM Generations</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+   <div id="Imagen"> <img src="Juegos_Imagenes/STORM Generations.jpg" width="464" height="250" /></div>
+<div id="texto">
+NARUTO Shippuden: Ultimate Ninja Storm Generations, ultima entrega de esta exitosa saga de juegos, da un salto hacia el futuro por medio de su revolucionario juego online y el aumento de numero de personajes controlables y de refuerzo, muchos mas que en cualquier otro juego de la popular saga NARUTO. Los jugadores se enfrentaran en diversos modos de batalla online, como torneos personalizados con sus personajes favoritos, entre ellos Naruto y Sasuke. Los fans de NARUTO reclamaban la presencia de Zabuza y Haku desde la aparicion del manga original, ¡y sus deseos han sido complacidos! Son tan solo dos de los muchos ninjas que debutan en el juego.  Ademas, los fans podran disfrutar de mas de 65 minutos de nuevas escenas anime de NARUTO.</div>
+<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/Storm Generations1.jpg" alt="" width="133" height="92" id="storm1" onmouseover="MM_swapImage('Contenedorstorm','','Juegos_Imagenes/Storm Generations1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/Storm Generations2.jpg" alt="" width="133" height="92" id="storm2" onmouseover="MM_swapImage('Contenedorstorm','','Juegos_Imagenes/Storm Generations2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/Storm Generations3.jpg" alt="" width="133" height="92" id="storm3" onmouseover="MM_swapImage('Contenedorstorm','','Juegos_Imagenes/Storm Generations3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/Storm Generations4.jpg" alt="" width="133" height="92" id="storm4" onmouseover="MM_swapImage('Contenedorstorm','','Juegos_Imagenes/Storm Generations4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/STORM Generations.jpg" alt="" width="312" height="188" id="Contenedorstorm" /></td>
+  </tr>
+</table>
+<a href="#Luchas" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer">
+    </div>
+    <div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="All">
+	<div data-role="header" id="titulo">
+		<h1>WWE® All Stars</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+   <div id="Imagen"> <img src="Juegos_Imagenes/WWE® All Stars.jpg" width="464" height="250" /></div>
+   <div id="texto">
+La funcionalidad multijugador de este titulo ya no esta disponible. unicamente tendras acceso a las funciones del juego para un jugador tras la descarga. La version de Juegos a peticion es compatible con ingles, frances, italiano, aleman, espanol. The greatest WWE match ups haven't happened - Until now. WWE All Stars is packed with high-flying, hard hitting and over the top action featuring 30 WWE historic Legends and current Superstars.
+</div>
+<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/WWE All stars1.jpg" alt="" width="133" height="92" id="All1" onmouseover="MM_swapImage('ContenedorAll','','Juegos_Imagenes/WWE All stars1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/WWE All stars2.jpg" alt="" width="133" height="92" id="All2" onmouseover="MM_swapImage('ContenedorAll','','Juegos_Imagenes/WWE All stars2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/WWE All stars32.jpg" alt="" width="133" height="92" id="All3" onmouseover="MM_swapImage('ContenedorAll','','Juegos_Imagenes/WWE All stars32.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/WWE All stars4.jpg" alt="" width="133" height="92" id="All4" onmouseover="MM_swapImage('ContenedorAll','','Juegos_Imagenes/WWE All stars4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/WWE® All Stars.jpg" alt="" width="312" height="188" id="ContenedorAll" /></td>
+  </tr>
+</table>
+<a href="#Luchas" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer">
+    </div>
+    <div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="wwe">
+	<div data-role="header" id="titulo">
+		<h1>WWE 2K15</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+   <div id="Imagen"> <img src="Juegos_Imagenes/WWE 2K15.jpg" width="464" height="250" /></div>
+<div id="texto">
+ ¡WWE 2K15 da comienzo a una nueva era de videojuegos de la WWE! WWE 2K15 es el primer juego de luchas que aparecera en las plataformas de nueva generacion, y ofrece la jugabilidad de la WWE mas autentica hasta la fecha, mas parecida que nunca a lo que los fans ven en los programas de la WWE. Con avances en la jugabilidad y otras novedades que se anunciaran proximamente, ¡WWE 2K15 traera el ambiente de la WWE a tu casa! Y por primera vez, juega como el iconico Sting, ¡la exclusiva de lanzamiento con la reserva! Siente cada golpe, escucha cada impacto. WWE 2K15. Sientelo.</div>
+ 
+ <table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/WWE 2k15_1.jpg" alt="" width="133" height="92" id="WWE1" onmouseover="MM_swapImage('ContenedorWWE','','Juegos_Imagenes/WWE 2k15_1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/WWE 2k15_2.jpg" alt="" width="133" height="92" id="WWE2" onmouseover="MM_swapImage('ContenedorWWE','','Juegos_Imagenes/WWE 2k15_2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/WWE 2k15_3.jpg" alt="" width="133" height="92" id="WWE3" onmouseover="MM_swapImage('ContenedorWWE','','Juegos_Imagenes/WWE 2k15_3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/WWE 2k15_4.jpg" alt="" width="133" height="92" id="WWE3" onmouseover="MM_swapImage('ContenedorWWE','','Juegos_Imagenes/WWE 2k15_4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/WWE 2K15.jpg" alt="" width="312" height="188" id="ContenedorWWE" /></td>
+  </tr>
+</table>
+<a href="#Luchas" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer">
+    </div>
+    <div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+<!-----AQUI TERMINA EL BOTON DE LUCHAS----->
+
+
+<div data-role="page" id="Plata">
+	<div data-role="header" id="titulo">
+		<h1>Juego de Plataforma</h1>
+	</div>
+	<div data-role="content" id="titulo">	
+        <div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#Doritos">• Doritos Crash Course </a></li>
+            <li><a href="#Bat">• Batman: Arkham City</a></li>
+            <li><a href="#Ray">•Rayman® Legends</a></li>
+            <li><a href="#Max">• Max: The Curse of Brotherhood </a></li>	
+            <li><a href="#Batt">• BattleBlock Theater </a></li>
+            <li><a href="#Trial">•Trials Evolution </a></li>	
+             <br />
+            <a href="#paginainicio" data-role="button">Regresar</a>
+             </ul>
+            </div>
+            <div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+            </div>	
+	</div>	 
+	</div>
+	<div data-role="footer"></div>
+</div>
+
+
+<div data-role="page" id="Doritos">
+	<div data-role="header" id="titulo">
+		<h1>Doritos Crash Course</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+   <div id="Imagen"> <img src="Juegos_Imagenes/Doritos Crash Course.jpg" width="464" height="250" /></div>
+<div id="texto">
+Doritos Crash Course es un vertiginoso y divertido juego de obstaculos en el que tu avatar compite contra tus amigos y familiares en Xbox LIVE. Juega a traves de 15 emocionantes niveles de plataformas en tres paises diferentes. Compite contra tus amigos y familiares en modo para hasta cuatro jugadores con pantalla dividida local o en Xbox LIVE.</div>
+
+ <table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/doritos crash course1.jpg" alt="" width="133" height="92" id="Doritos1" onmouseover="MM_swapImage('ContenedorDoritos','','Juegos_Imagenes/doritos crash course1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/doritos crash course2.jpg" alt="" width="133" height="92" id="Doritos2" onmouseover="MM_swapImage('ContenedorDoritos','','Juegos_Imagenes/doritos crash course2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/doritos crash course3.jpg" alt="" width="133" height="92" id="Doritos3" onmouseover="MM_swapImage('ContenedorDoritos','','Juegos_Imagenes/doritos crash course3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/doritos crash course4.jpg" alt="" width="133" height="92" id="Doritos4" onmouseover="MM_swapImage('ContenedorDoritos','','Juegos_Imagenes/doritos crash course4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/Doritos Crash Course.jpg" alt="" width="312" height="188" id="ContenedorDoritos" /></td>
+  </tr>
+</table>
+<a href="#Plata" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+
+
+<div data-role="page" id="Bat">
+	<div data-role="header" id="titulo">
+		<h1>Batman: Arkham City</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+   <div id="Imagen"> <img src="Juegos_Imagenes/Batman_ Arkham City.jpg" width="464" height="250" /></div>
+<div id="texto">
+La version de Juegos a peticion es compatible con ingles, frances, italiano, aleman, espanol, ruso, japones, coreano. No hay escape de Arkham City…, la enorme superprision en el corazon de Gotham City, hogar de los matones mas violentos y los supervillanos mas infames. Con vidas inocentes en juego, solo un hombre puede traer la salvacion y hacer justicia en las calles de Gotham: Batman.</div>
+<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/batman arkham city1.jpg" alt="" width="133" height="92" id="Bat1" onmouseover="MM_swapImage('ContenedorBat','','Juegos_Imagenes/batman arkham city1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/batman arkham city2.jpg" alt="" width="133" height="92" id="Bat2" onmouseover="MM_swapImage('ContenedorBat','','Juegos_Imagenes/batman arkham city2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/batman arkham city3.jpg" alt="" width="133" height="92" id="Bat3" onmouseover="MM_swapImage('ContenedorBat','','Juegos_Imagenes/batman arkham city3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/batman arkham city4.jpg" alt="" width="133" height="92" id="Bat4" onmouseover="MM_swapImage('ContenedorBat','','Juegos_Imagenes/batman arkham city4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/Batman_ Arkham City.jpg" alt="" width="312" height="188" id="ContenedorBat" /></td>
+  </tr>
+</table>
+<a href="#Plata" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+
+
+<div data-role="page" id="Ray">
+	<div data-role="header" id="titulo">
+		<h1>Rayman® Legends</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+   <div id="Imagen"> <img src="Juegos_Imagenes/Rayman® Legends.jpg" width="464" height="250" /></div>
+<div id="texto">
+¡El Claro de los Suenos vuelve a estar en peligro! Tras una siesta de 100 anos, las pesadillas se multiplican por todas partes, ¡con nuevos monstruos mas terrorificos que nunca! De estas criaturas nacen las leyendas... Dragones, sapos gigantes, monstruos marinos, incluso luchadores malotes. Con la ayuda de Murfy, Rayman y Globox despiertan y se preparan para luchar contra estas pesadillas y salvar a los diminutos.</div>
+<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/rayman legends1.jpg" alt="" width="133" height="92" id="Ray1" onmouseover="MM_swapImage('ContenedorRay','','Juegos_Imagenes/rayman legends1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/rayman legends2.jpg" alt="" width="133" height="92" id="Ray2" onmouseover="MM_swapImage('ContenedorRay','','Juegos_Imagenes/rayman legends2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/rayman legends3.jpg" alt="" width="133" height="92" id="Ray3" onmouseover="MM_swapImage('ContenedorRay','','Juegos_Imagenes/rayman legends3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/rayman legends4.jpg" alt="" width="133" height="92" id="Ray4" onmouseover="MM_swapImage('ContenedorRay','','Juegos_Imagenes/rayman legends4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/Rayman® Legends.jpg" alt="" width="312" height="188" id="ContenedorRay" /></td>
+  </tr>
+</table>
+<a href="#Plata" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+</div>
+
+
+
+<div data-role="page" id="Max">
+	<div data-role="header" id="titulo">
+		<h1>Max: The Curse of Brotherhood</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+   <div id="Imagen"> <img src="Juegos_Imagenes/Max_ The Curse of Brotherhood.jpg" width="464" height="250" /></div>
+   <div id="texto">
+Max: The Curse of Brotherhood es una aventura cinematografica repleta de rompecabezas que solo las mentes mas creativas podran resolver. Armado con un marcador magico, Max debe enfrentarse al mal en cada turno en un mundo hostil y fantastico para poder salvar a su hermano pequeno, Felix. ¡unete a Max en esta gran aventura!</div>
+<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/max the curse of brotherhood1.jpg" alt="" width="133" height="92" id="Max1" onmouseover="MM_swapImage('ContenedorMax','','Juegos_Imagenes/max the curse of brotherhood1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/max the curse of brotherhood2.jpg" alt="" width="133" height="92" id="Max2" onmouseover="MM_swapImage('ContenedorMax','','Juegos_Imagenes/max the curse of brotherhood2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/max the curse of brotherhood3.jpg" alt="" width="133" height="92" id="Max3" onmouseover="MM_swapImage('ContenedorMax','','Juegos_Imagenes/max the curse of brotherhood3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/max the curse of brotherhood4.jpg" alt="" width="133" height="92" id="Max4" onmouseover="MM_swapImage('ContenedorMax','','Juegos_Imagenes/max the curse of brotherhood4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/Max_ The Curse of Brotherhood.jpg" alt="" width="312" height="188" id="ContenedorMax" /></td>
+  </tr>
+</table>
+<a href="#Plata" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>>
+</div>
+
+
+
+<div data-role="page" id="Batt">
+	<div data-role="header" id="titulo">
+		<h1>BattleBlock Theater</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+   <div id="Imagen"> <img src="Juegos_Imagenes/BattleBlock Theater.jpg" width="464" height="250" /></div>
+<div id="texto">
+Naufragado. Capturado. Traicionado. ¿Obligado a actuar para espectadores felinos? Un segundo... ¿Que? ¡Acabas de desbloquear la puerta a BattleBlock Theater! Ya no hay vuelta atras una vez comenzada tu mision de liberar a tus amigos prisioneros de los malvados gatos tecnologicos. Sumergete en esta alucinante historia de traicion, y lucha en cientos de niveles para descubrir la verdad oculta tras el BattleBlock Theater.</div>
+<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/battleblock theater1.jpg" alt="" width="133" height="92" id="Block1" onmouseover="MM_swapImage('ContenedorBlock','','Juegos_Imagenes/battleblock theater1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/battleblock theater2.jpg" alt="" width="133" height="92" id="Block2" onmouseover="MM_swapImage('ContenedorBlock','','Juegos_Imagenes/battleblock theater2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/battleblock theater3.jpg" alt="" width="133" height="92" id="Block3" onmouseover="MM_swapImage('ContenedorBlock','','Juegos_Imagenes/battleblock theater3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/battleblock theater4.jpg" alt="" width="133" height="92" id="Block4" onmouseover="MM_swapImage('ContenedorBlock','','Juegos_Imagenes/battleblock theater4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/BattleBlock Theater.jpg" alt="" width="312" height="188" id="ContenedorBlock" /></td>
+  </tr>
+</table>
+<a href="#Plata" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+	</div>
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+		
+  </div>
+</div>
+
+
+
+<div data-role="page" id="Trial">
+	<div data-role="header" id="titulo">
+		<h1>Trials Evolution</h1>
+	</div>
+	<div data-role="content" id="paginainicio">	
+   <div id="Imagen"> <img src="Juegos_Imagenes/Trials Evolution.jpg" width="464" height="250" /></div>
+   <div id="texto">
+¡En Trials Evolution lo que importa es la supervivencia del mas rapido! Ha vuelto tu juego favorito de carreras de motos con increibles escenarios al aire libre. Juega en tiempo real desde 2 a 4 jugadores, ya sea en local o conectado a Xbox LIVE. Disfruta del modo de un solo jugador con 50 pistas increibles, objetos desafiantes para desbloquear y logros intrincados. El editor de pistas te permite crear la pista de tus suenos y compartirla facilmente con el mundo. O descargate las pistas mas premiadas, usando la novedosa Central de pistas. Personaliza tu moto y tu piloto con un fantastico equipamiento y piezas unicas, disfruta de los juegos de habilidad, enfrentate a motos  fantasmas y consigue mas puntos que tus amigos. ¡No te lo pierdas!</div>
+<table width="780" height="235" border="1">
+  <tr>
+    <td width="385" height="229" align="center" valign="middle"><table width="278" height="200" border="1">
+      <tr>
+        <td width="133" height="96"><img src="Juegos_Imagenes/trials evolution1.jpg" alt="" width="133" height="92" id="Trial1" onmouseover="MM_swapImage('ContenedorTrial','','Juegos_Imagenes/trials evolution1.jpg',0)" /></td>
+        <td width="129"><img src="Juegos_Imagenes/trials evolution2.jpg" alt="" width="133" height="92" id="Trial2" onmouseover="MM_swapImage('ContenedorTrial','','Juegos_Imagenes/trials evolution2.jpg',0)" /></td>
+      </tr>
+      <tr>
+        <td height="96"><img src="Juegos_Imagenes/trials evolution3.jpg" alt="" width="133" height="92" id="Trial3" onmouseover="MM_swapImage('ContenedorTrial','','Juegos_Imagenes/trials evolution3.jpg',0)" /></td>
+        <td><img src="Juegos_Imagenes/trials evolution4.jpg" alt="" width="133" height="92" id="Trial4" onmouseover="MM_swapImage('ContenedorTrial','','Juegos_Imagenes/trials evolution4.jpg',0)" /></td>
+      </tr>
+    </table></td>
+    <td width="379" align="center" valign="middle"><img src="Juegos_Imagenes/Trials Evolution.jpg" alt="" width="312" height="188" id="ContenedorTrial" /></td>
+  </tr>
+</table>
+<a href="#Plata" data-role="button">Regresar</a>
+    <a href="#paginainicio" data-role="button">Menu</a>
+  </div>
+	<div data-role="footer" id="titulo">
+		<h4>GAMERS</h4>
+	</div>
+	
+	</div>
+</div>
+
+<!-----AQUI TERMINA EL BOTON DE JUEGO DE PLATAFORMA--->
+
+
+
+
+
+</body>
+</html>
+

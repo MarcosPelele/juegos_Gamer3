@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+#paginainicio
+{background:#000}
+
+
+#titulo
+{ background-image:url(../Juegos_Imagenes/videojuego.jpg); color:#66C}
+#texto
+{color:#FFF; ; size:3% ; text-align:justify; width:95%; margin:1% }
+#Imagen
+{background:#000; text-align:center; margin:1%; background-image:url(../Juegos_Imagenes/videojuego.jpg)}
+#textoinfo
+{ background-image:url(../Juegos_Imagenes/videojuego.jpg); color:#CCC; size:3% ; text-align:justify; width:95%; margin:1% }
